@@ -27,17 +27,6 @@ Our project is to built a monitoring system for railways. In SriLanka, there is 
 
 
 
-## Solution Architecture
-
-Our system has a centralized sever. It monitors the trains and controls the gates. There are separate devices for those tasks. Basically we use GPS to get the locations of trains and continuous internet connection to feed the data to the server. If something happens to the GPS signals, there is a failsafe sensor for that. That sensor will trigger the gate controlling device when the train is in right position. That is how our system works.  
-
-![Diagram](docs/data/images/5.JPG)
- 
-
- 
-  
-[Project Report](docs/data/documents/1.pdf)
-
 
 
 ## Links
