@@ -38,25 +38,25 @@ Our project is to built a monitoring system for railways. In SriLanka, there is 
 
 Our system has a centralized sever. It monitors the trains and controls the gates. There are separate devices for those tasks. Basically we use GPS to get the locations of trains and continuous internet connection to feed the data to the server. If something happens to the GPS signals, there is a failsafe sensor for that. That sensor will trigger the gate controlling device when the train is in right position. That is how our system works.  
 
-![Diagram](data/images/5.JPG)
+![Diagram](docs/data/images/5.JPG)
 
 ## Hardware and Software Designs
 
 The GPS module that we are using for the project is Adafruit Wearable Ultimate GPS Module. The images will show you how its configured and the output.  
-![GPS_module](data/images/3.JPG)  
-![Code](data/images/4.JPG)  
+![GPS_module](docs/data/images/3.JPG)  
+![Code](docs/data/images/4.JPG)  
   
 We have created a website for upload data and monitor the train. We hosted that website in 000webhost.com . 
 
 This is the [link](https://trainlocationviewer.000webhostapp.com) for that site.  
 
-![image](data/images/1.JPG)  
-![image](data/images/2.JPG)  
+![image](docs/data/images/1.JPG)  
+![image](docs/data/images/2.JPG)  
 
-[How our site works](https://youtu.be/p51krXkC2GI)  
-[Process](https://youtu.be/yUq7oLuPGLU)  
+[Video - How our site works](https://youtu.be/p51krXkC2GI)  
+[Video - Process](https://youtu.be/yUq7oLuPGLU)  
   
-[Project Report](data/documents/1.pdf)
+[Project Report](docs/data/documents/1.pdf)
 
 
 
