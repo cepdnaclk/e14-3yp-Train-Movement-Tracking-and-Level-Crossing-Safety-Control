@@ -53,8 +53,8 @@ This is the [link](https://trainlocationviewer.000webhostapp.com) for that site.
 ![image](data/images/1.JPG)  
 ![image](data/images/2.JPG)  
 
-[How our site works](https://youtu.be/p51krXkC2GI)  
-[Process](https://youtu.be/yUq7oLuPGLU)  
+[Video - How our site works](https://youtu.be/p51krXkC2GI)  
+[Video - Process](https://youtu.be/yUq7oLuPGLU)  
   
 [Project Report](data/documents/1.pdf)
 
