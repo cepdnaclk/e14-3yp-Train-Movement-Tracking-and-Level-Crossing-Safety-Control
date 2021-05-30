@@ -18,13 +18,6 @@ title: Train Movement Tracking and Level-Crossing Safety Control
 -  E/14/136, HETTIARACHCHI H.A.D.C., [e14136@eng.pdn.ac.lk](mailto:e14136@eng.pdn.ac.lk)
 -  E/14/125, HASSANA A.L.F., [e14125@eng.pdn.ac.lk](mailto:e14125@eng.pdn.ac.lk)
 
-## Table of Contents
-1. [Introduction](#introduction)
-2. [Solution Architecture](#solution-architecture )
-3. [Hardware & Software Designs](#hardware-and-software-designs)
-4. [Links](#links)
-
----
 
 ## Introduction
 
@@ -39,22 +32,9 @@ Our project is to built a monitoring system for railways. In SriLanka, there is 
 Our system has a centralized sever. It monitors the trains and controls the gates. There are separate devices for those tasks. Basically we use GPS to get the locations of trains and continuous internet connection to feed the data to the server. If something happens to the GPS signals, there is a failsafe sensor for that. That sensor will trigger the gate controlling device when the train is in right position. That is how our system works.  
 
 ![Diagram](docs/data/images/5.JPG)
+ 
 
-## Hardware and Software Designs
-
-The GPS module that we are using for the project is Adafruit Wearable Ultimate GPS Module. The images will show you how its configured and the output.  
-![GPS_module](docs/data/images/3.jpg)  
-![Code](docs/data/images/4.png)  
-  
-We have created a website for upload data and monitor the train. We hosted that website in 000webhost.com . 
-
-This is the [link](https://trainlocationviewer.000webhostapp.com) for that site.  
-
-![image](docs/data/images/1.png)  
-![image](docs/data/images/2.png)  
-
-[Video - How our site works](https://youtu.be/p51krXkC2GI)  
-[Video - Process](https://youtu.be/yUq7oLuPGLU)  
+ 
   
 [Project Report](docs/data/documents/1.pdf)
 
