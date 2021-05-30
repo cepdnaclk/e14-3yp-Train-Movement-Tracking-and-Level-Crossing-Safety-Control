@@ -1,57 +1,72 @@
-___
-# DELETE THIS INSTRUCTIONS AND ADD AN INTRODUCTION ABOUT YOUR PROJECT
-___
+---
+layout: home
+permalink: index.html
 
-# eYY-3yp-project-template
+# Please update this with your repository name and title
+repository-name: e14-3yp-Train-Movement-Tracking-and-Level-Crossing-Safety-Control
+title: Train Movement Tracking and Level-Crossing Safety Control
+---
 
-This is a sample repository you can use for your Embedded Systems project. Once you followed these instructions, remove the text and add a brief introduction to here.
+[comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-### Enable GitHub Pages
+# Train Movement Tracking and Level-Crossing Safety Control
 
-You can put the things to be shown in GitHub pages into the _docs/_ folder. Both html and md file formats are supported. You need to go to settings and enable GitHub pages and select _main_ branch and _docs_ folder from the dropdowns, as shown in the below image.
+---
 
-![image](https://user-images.githubusercontent.com/11540782/98789936-028d3600-2429-11eb-84be-aaba665fdc75.png)
+## Team
+-  E/14/213, MAHALIYANA R.K., [e14213@eng.pdn.ac.lk](mailto:e14213@eng.pdn.ac.lk)
+-  E/14/136, HETTIARACHCHI H.A.D.C., [e14136@eng.pdn.ac.lk](mailto:e14136@eng.pdn.ac.lk)
+-  E/14/125, HASSANA A.L.F., [e14125@eng.pdn.ac.lk](mailto:e14125@eng.pdn.ac.lk)
 
-### Special Configurations
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Solution Architecture](#solution-architecture )
+3. [Hardware & Software Designs](#hardware-and-software-designs)
+4. [Links](#links)
 
-These projects will be automatically added into [https://projects.ce.pdn.ac.lk](). If you like to show more details about your project on this site, you can fill the parameters in the file, _/docs/index.json_
+---
 
-```
-{
-  "title": "This is the title of the project",
-  "team": [
-    {
-      "name": "Team Member Name 1",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 2",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    },
-    {
-      "name": "Team Member Name 3",
-      "email": "email@eng.pdn.ac.lk",
-      "eNumber": "E/yy/xxx"
-    }
-  ],
-  "supervisors": [
-    {
-      "name": "Dr. Supervisor 1",
-      "email": "email@eng.pdn.ac.lk"
-    },
-    {
-      "name": "Supervisor 2",
-      "email": "email@eng.pdn.ac.lk"
-    }
-  ],
-  "tags": ["Web", "Embedded Systems"]
-}
-```
+## Introduction
 
-Once you filled this _index.json_ file, please verify the syntax is correct. (You can use [this](https://jsonlint.com/) tool).
+Our project is to built a monitoring system for railways. In SriLanka, there is a traditional system to monitor trains in most of the stations. Usually from one station, they issue a device to the train and once that train reached to another station, train driver has to give that old device and get a new device from the newly reached station. Because of that, that train can be only monitored by the stations which are located along its path. So we intend to develop a system which can monitor all the trains from any where. As a feature of our system, we'll add a railway gates controlling part. 
 
-### Page Theme
+  
 
-A custom theme integrated with this GitHub Page, which is based on [github.com/cepdnaclk/eYY-project-theme](https://github.com/cepdnaclk/eYY-project-theme). If you like to remove this default theme, you can remove the file, _docs/\_config.yml_ and use HTML based website.
+
+
+## Solution Architecture
+
+Our system has a centralized sever. It monitors the trains and controls the gates. There are separate devices for those tasks. Basically we use GPS to get the locations of trains and continuous internet connection to feed the data to the server. If something happens to the GPS signals, there is a failsafe sensor for that. That sensor will trigger the gate controlling device when the train is in right position. That is how our system works.  
+
+![Diagram](data/images/5.JPG)
+
+## Hardware and Software Designs
+
+The GPS module that we are using for the project is Adafruit Wearable Ultimate GPS Module. The images will show you how its configured and the output.  
+![GPS_module](data/images/3.JPG)  
+![Code](data/images/4.JPG)  
+  
+We have created a website for upload data and monitor the train. We hosted that website in 000webhost.com . 
+
+This is the [link](https://trainlocationviewer.000webhostapp.com) for that site.  
+
+![image](data/images/1.JPG)  
+![image](data/images/2.JPG)  
+
+[How our site works](https://youtu.be/p51krXkC2GI)  
+[Process](https://youtu.be/yUq7oLuPGLU)  
+  
+[Project Report](data/documents/1.pdf)
+
+
+
+## Links
+
+- <a href = "https://github.com/cepdnaclk/e14-3yp-Train-Movement-Tracking-and-Level-Crossing-Safety-Control" target = "_blank">Project Repository</a>
+- <a href = "https://cepdnaclk.github.io/e14-3yp-Train-Movement-Tracking-and-Level-Crossing-Safety-Control/" target = "_blank">Project Page</a>
+- <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
+- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+
+
+[//]: # (Please refer this to learn more about Markdown syntax)
+[//]: # (https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
