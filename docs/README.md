@@ -43,15 +43,15 @@ Our system has a centralized sever. It monitors the trains and controls the gate
 ## Hardware and Software Designs
 
 The GPS module that we are using for the project is Adafruit Wearable Ultimate GPS Module. The images will show you how its configured and the output.  
-![GPS_module](data/images/3.JPG)  
-![Code](data/images/4.JPG)  
+![GPS_module](data/images/3.jpg)  
+![Code](data/images/4.png)  
   
 We have created a website for upload data and monitor the train. We hosted that website in 000webhost.com . 
 
 This is the [link](https://trainlocationviewer.000webhostapp.com) for that site.  
 
-![image](data/images/1.JPG)  
-![image](data/images/2.JPG)  
+![image](data/images/1.png)  
+![image](data/images/2.png)  
 
 [Video - How our site works](https://youtu.be/p51krXkC2GI)  
 [Video - Process](https://youtu.be/yUq7oLuPGLU)  
