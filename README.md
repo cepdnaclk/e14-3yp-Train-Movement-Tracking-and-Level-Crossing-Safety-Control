@@ -14,9 +14,9 @@ title: Train Movement Tracking and Level-Crossing Safety Control
 ---
 
 ## Team
--  E/14/213, MAHALIYANA R.K., [e14213@eng.pdn.ac.lk](mailto:e14213@eng.pdn.ac.lk)
--  E/14/136, HETTIARACHCHI H.A.D.C., [e14136@eng.pdn.ac.lk](mailto:e14136@eng.pdn.ac.lk)
--  E/14/125, HASSANA A.L.F., [e14125@eng.pdn.ac.lk](mailto:e14125@eng.pdn.ac.lk)
+-  E/14/213, MAHALIYANA R.K., [e14213@ce.pdn.ac.lk](mailto:e14213@ce.pdn.ac.lk)
+-  E/14/136, HETTIARACHCHI H.A.D.C., [e14136@ce.pdn.ac.lk](mailto:e14136@ce.pdn.ac.lk)
+-  E/14/125, HASSANA A.L.F., [e14125@ce.pdn.ac.lk](mailto:e14125@ce.pdn.ac.lk)
 
 
 ## Introduction
@@ -34,7 +34,7 @@ Our project is to built a monitoring system for railways. In SriLanka, there is 
 - <a href = "https://github.com/cepdnaclk/e14-3yp-Train-Movement-Tracking-and-Level-Crossing-Safety-Control" target = "_blank">Project Repository</a>
 - <a href = "https://cepdnaclk.github.io/e14-3yp-Train-Movement-Tracking-and-Level-Crossing-Safety-Control/" target = "_blank">Project Page</a>
 - <a href = "http://www.ce.pdn.ac.lk/" target = "_blank">Department of Computer Engineering</a>
-- <a href = "https://eng.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
+- <a href = "https://ce.pdn.ac.lk/" target = "_blank">University of Peradeniya</a>
 
 
 [//]: # (Please refer this to learn more about Markdown syntax)

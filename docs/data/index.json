@@ -3,24 +3,24 @@
     "team": [
         {
             "name": "MAHALIYANA R.K.",
-            "email": "e14213@eng.pdn.ac.lk",
+            "email": "e14213@ce.pdn.ac.lk",
             "eNumber": "E/14/213"
         },
         {
             "name": "HETTIARACHCHI H.A.D.C.",
-            "email": "e14136@eng.pdn.ac.lk",
+            "email": "e14136@ce.pdn.ac.lk",
             "eNumber": "E/14/136"
         },
         {
             "name": "HASSANA A.L.F.",
-            "email": "e14125@eng.pdn.ac.lk",
+            "email": "e14125@ce.pdn.ac.lk",
             "eNumber": "E/14/125"
         }
     ],
     "supervisors": [
         {
             "name": "Dr. Isuru Nawinne",
-            "email": "isurunawinne@eng.pdn.ac.lk"
+            "email": "isurunawinne@ce.pdn.ac.lk"
         }
     ],
     "tags": []
